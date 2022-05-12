@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Mono&display=swap');
+
+* {
+  background-color: rgb(253, 251, 251);
+  font-family: PT Mono, monospace;
+  line-height: 1.1;
+}
+
+#cabecalho {
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: green;
+}
+
+#titulo {
+  background-color: green;
+  color: white;
+  text-align: center;
+}
+
+#minha_foto {
+  width: 300px;
+  position: absolute;
+  top: 100px;
+}
+
+#meu_nome {
+  position: absolute;
+  top: 364px;
+  padding: 3px;
+}
+
+table {
+  table-layout: auto;
+  position: absolute;
+  left: 450px;
+  top: 450px;
+  text-align: center;
+  border: 3px solid green;
+  margin: 3px;
+  padding: 10px;
+}
+
+#licoes_aprendidas {
+  position: absolute;
+  top: 400px;
+}
+
+#licoes_a_aprender {
+  position: absolute;
+  top: 650px;
+}
+
+.lado-esquerdo {
+  position: absolute;
+  width: 500px;
+  left: 10px;
+  top: 920px;
+  right: 800px;
+}
+
+.lado-direito {
+  position: absolute;
+  left: 600px;
+  width: 300px;
+  top: 920px;
+  right: 400px;
+  padding: 10px;
+  padding-top: 0;
+  padding-bottom: 0;
+  border: 3px solid;
+  border-color: green;
+}
+
+#link_trybe {
+  position: absolute;
+  top: 1130px;
+  font-size: 20px;
+  text-decoration: none;
+  color: green;
+}
+
+#link_trybe:hover {
+  background-color: green;
+  color: white;
+}
+
+#rodape {
+  top: 1170px;
+  left: 0;
+  right: 0;
+  position: absolute;
+  background-color: green;
+}
+
+#frase_rodape {
+  background-color: green;
+  color: white;
+  text-align: center;
+  font-size: 10px;
+}
