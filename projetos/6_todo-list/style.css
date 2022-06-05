@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+* {
+  font-family: Kdam Thmor Pro, sans-serif;
+  background-color: gray;
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  margin-left: 50px;
+  margin-right: 50px;
+  background-color: aqua;
+  border: solid black 2px;
+  margin-top: 50px;
+  border-radius: 20px;
+}
+
+h1 {
+  background-color: white;
+  border-radius: 5px;
+  margin: 5px;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding: 5px;
+}
+
+p {
+  background-color: white;
+  font-style: italic;
+  border-radius: 5px;
+  margin: 5px;
+  margin-top: -15px;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding: 5px;
+}
+
+input {
+  background-color: gainsboro;
+  border-radius: 10px;
+  border: solid black 5px;
+  margin: 5px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 30px;
+  padding: 5px;
+}
+
+header {
+  background-color: white
+}
+
+ol {
+  background-color: white;
+}
+.task {
+  padding: 5px;
+  margin-left: 50px;
+  margin-right: 50px;
+  list-style: inside;
+  background-color: white;
+}
+
+.task-selected {
+  background-color: gray;
+}
+
+.completed {
+  text-decoration: line-through solid black;
+}
+
+#criar-tarefa {
+  background-color: rgb(88, 88, 209);
+  color: white;
+  padding: 5px;
+  width: 125px;
+  margin: -30px;
+  border-radius: 10px;
+}
+
+#remover-selecionado {
+  background-color: rgb(212, 21, 21);
+  color: white;
+  padding: 0px;
+  width: 40px;
+  margin-left: 50px;
+  margin-top: 25px;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+#mover-cima {
+  background-color: rgb(212, 145, 21);
+  color: white;
+  padding: 0px;
+  width: 40px;
+  margin-left: 10px;
+  margin-top: 25px;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#mover-baixo {
+  background-color: rgb(212, 145, 21);
+  color: white;
+  padding: 0px;
+  width: 40px;
+  margin-left: 10px;
+  margin-top: 25px;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#apaga-tudo {
+  background-color:  rgb(212, 21, 21);
+  color: white;
+  padding: 5px;
+  width: 125px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+#remover-finalizados {
+  background-color: rgb(88, 88, 209);
+  color: white;
+  padding: 5px;
+  width: 125px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+#salvar-tarefas {
+  background-color: rgb(55, 165, 55);
+  color: white;
+  padding: 5px;
+  width: 125px;
+  margin: 10px;
+  border-radius: 10px;
+}
