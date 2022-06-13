@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=David+Libre&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: David Libre, serif;
+}
+
+.header {
+  color: white;
+  display: flex;
+  background-color: rgb(50, 167, 145);
+  align-items: center;
+}
+
+.trybewarts-header-logo {
+  width: 50px;
+  padding: 5px;
+  margin-left: 10px;
+}
+
+#trybewarts-header-title {
+  margin: auto;
+}
+
+.trybewarts-login {
+  display: flex;
+  margin-right: 10px;
+}
+
+.trybewarts-login input {
+  width: 120px;
+  height: 20px;
+  border-radius: 5px;
+  border: none;
+  margin: 3px;
+  padding: 5px;
+}
+
+.trybewarts-login button {
+  background-color: rgb(77, 39, 138);
+  color: white;
+  width: 120px;
+  height: 32px;
+  border-radius: 5px;
+  border: none;
+  margin: 3px;
+}
+
+main {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: rgb(235, 235, 235);
+}
+
+#evaluation-form {
+  display: flex;
+  width: 675px;
+  flex-flow: column wrap;
+  color: rgb(82, 82, 82);
+}
+
+#form-body {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+#form-body label {
+  width: 100%;
+  font-size: 25px;
+  align-items: center;
+  padding: 25px;
+  color: rgb(82, 82, 82);
+}
+
+#form-body input {
+  width: 320px;
+  height: 30px;
+  border-radius: 5px;
+  border: none;
+  margin: 2px;
+  margin-bottom: 15px;
+  padding: 5px;
+}
+
+#trybewarts-forms-logo {
+  height: 500px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+#casas {
+  display: flex;
+  align-items: center;
+  width: 320px;
+  margin: 2px;
+  height: 35px;
+}
+
+#house {
+  background-color: white;
+  width: 320px;
+  height: 35px;
+  border-radius: 5px;
+  border: none;
+  margin: 2px;
+  padding: 5px;
+}
+
+#second-part {
+  display: flex;
+  height: 120px;
+}
+
+#label-family {
+  margin-bottom: 10px;
+}
+
+#form-second-part div {
+  padding: 5px;
+  width: 250px;
+}
+
+#form-second-part {
+  width: 200px;
+  height: 120px;
+}
+
+#content-to-learn {
+  height: 120px;
+  width: 475px;
+}
+
+#content-to-learn div {
+  padding: 5px;
+  display: inline-block;
+  width: 150px;
+  height: 15px;
+  border: 2px;
+}
+
+#label-content {
+  display: flex;
+  margin-bottom: 10px;
+  width: 600px;
+}
+
+#rate {
+  display: inline-block;
+}
+
+#rate input {
+  margin: 5px;
+}
+
+#area {
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+textarea {
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+#counter {
+  font-size: small;
+  margin-bottom: 20px;
+  margin-top: -5px;
+  margin-left: 650px;
+}
+
+#label-infos {
+  margin-right: 5px;
+}
+
+#check {
+  display: flex;
+  align-content: center;
+  margin-bottom: 10px;
+}
+
+#submit-btn {
+  background-color: grey;
+  color: white;
+  width: 675px;
+  height: 32px;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 25px;
+}
+
+#rodapé {
+  background-color: rgb(122, 113, 113);
+  justify-content: flex-end;
+  color: white;
+  text-align: center;
+}
+
+#form-data {
+  display: none;
+}
